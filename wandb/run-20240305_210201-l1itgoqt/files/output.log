@@ -1,0 +1,55 @@
+
+Epoch 3:  15%|█▍        | 12/82 [00:00<00:00, 152.80it/s, v_num=goqt]
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:390: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 370 K
+-------------------------------------
+370 K     Trainable params
+0         Non-trainable params
+370 K     Total params
+1.481     Total estimated model params size (MB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 99:  83%|████████▎ | 68/82 [00:00<00:00, 118.53it/s, v_num=goqt]
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Restoring states from the checkpoint path at ./lightning_logs/l1itgoqt/checkpoints/epoch=99-step=8200.ckpt
+Loaded model weights from the checkpoint at ./lightning_logs/l1itgoqt/checkpoints/epoch=99-step=8200.ckpt
+Epoch 99: 100%|██████████| 82/82 [00:00<00:00, 117.07it/s, v_num=goqt]
+Testing DataLoader 0: 100%|██████████| 21/21 [00:00<00:00, 157.78it/s]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        Test MSE            0.6854454874992371
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

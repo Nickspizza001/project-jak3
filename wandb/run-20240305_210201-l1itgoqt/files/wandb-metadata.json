@@ -1,0 +1,36 @@
+{
+    "os": "macOS-13.4-arm64-arm-64bit",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-03-05T20:02:03.834849",
+    "startedAt": "2024-03-05T20:02:01.697147",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Nickspizza001/project-jak3.git",
+        "commit": "cbf3fc9c3e6f709b586ef9005a17101bf86ad55b"
+    },
+    "email": "69063508+Nickspizza001@users.noreply.github.com",
+    "root": "/Users/sefunmibodun/Documents/GitHub/project-jak3",
+    "host": "Sefunmis-MacBook-Air.local",
+    "username": "sefunmibodun",
+    "executable": "/Users/sefunmibodun/anaconda3/envs/dami/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 100.47133255004883
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

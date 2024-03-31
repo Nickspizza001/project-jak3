@@ -1,0 +1,53 @@
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:390: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 271 K
+-------------------------------------
+271 K     Trainable params
+0         Non-trainable params
+271 K     Total params
+1.085     Total estimated model params size (MB)
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 98:  60%|█████▉    | 49/82 [00:00<00:00, 135.56it/s, v_num=qe1p]
+`Trainer.fit` stopped: `max_epochs=100` reached.
+Restoring states from the checkpoint path at ./lightning_logs/oyinqe1p/checkpoints/epoch=99-step=8200.ckpt
+Loaded model weights from the checkpoint at ./lightning_logs/oyinqe1p/checkpoints/epoch=99-step=8200.ckpt
+Epoch 99: 100%|██████████| 82/82 [00:00<00:00, 138.42it/s, v_num=qe1p]
+Testing DataLoader 0: 100%|██████████| 21/21 [00:00<00:00, 268.09it/s]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        Test MSE            0.8017615675926208
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

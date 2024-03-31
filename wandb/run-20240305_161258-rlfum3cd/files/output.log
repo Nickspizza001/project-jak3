@@ -1,0 +1,42 @@
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:390: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 370 K
+-------------------------------------
+370 K     Trainable params
+0         Non-trainable params
+370 K     Total params
+1.481     Total estimated model params size (MB)
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Epoch 0:   0%|          | 0/82 [00:00<?, ?it/s]
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:390: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 370 K
+-------------------------------------
+370 K     Trainable params
+0         Non-trainable params
+370 K     Total params
+1.481     Total estimated model params size (MB)
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sefunmibodun/anaconda3/envs/dami/lib/python3.11/site-packages/pytorch_lightning/loggers/wandb.py:390: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+  | Name  | Type       | Params
+-------------------------------------
+0 | model | Sequential | 370 K
+-------------------------------------
+370 K     Trainable params
+0         Non-trainable params
+370 K     Total params
+1.481     Total estimated model params size (MB)
